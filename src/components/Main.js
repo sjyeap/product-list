@@ -13,10 +13,6 @@ function Main() {
     { name: "Sports", isActive: false },
   ]);
 
-  const [pageNumber, setPageNumber] = useState(0);
-  const itemsPerPage = 5;
-  const pagesVisited = pageNumber * itemsPerPage;
-
   const [fullProductList, setFullProductList] = React.useState([]);
   const [productList, setProductList] = React.useState([]);
 
@@ -32,6 +28,7 @@ function Main() {
     },
   });
 
+  // Get product list
   React.useEffect(() => {
     axios.get(`https://random-data-api.com/api/commerce/random_commerce?size=50`).then((response) => {
       console.log(response.data);
