@@ -24,8 +24,17 @@ This project uses frameworks and libraries as listed below:
 ## Getting Started
 
 ### Prerequisites
+1. Install Node.js and NPM on Windows via Node.js via https://nodejs.org/en/download/
+2. Verify installation:
+Open a command prompt (or PowerShell), and enter the following:
+```sh
+node -v
+```
+The system should display the Node.js version installed on your system. You can do the same for NPM:
+```sh
+npm -v
+```
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
