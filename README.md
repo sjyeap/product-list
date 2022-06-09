@@ -35,11 +35,6 @@ The system should display the Node.js version installed on your system. You can 
 npm -v
 ```
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Clone the repo
